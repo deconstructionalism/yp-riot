@@ -19,6 +19,7 @@
 //     /* Legacy iOS */
 // }
 
+@import url(https://fonts.googleapis.com/css?family=Asap);
 
 /******************
 * GENERAL STYLING *
@@ -238,12 +239,16 @@ a:visited.underlined-link.teal {
 
 
 /*NAVBAR*/
+navbar {
+    width: inherit;
+}
 
 #navbar {
     justify-content: flex-end;
     display: flex;
     flex-flow: row;
-    width: 100%;
+    width: inherit;
+    position: fixed;
 }
 
 nav {
@@ -296,7 +301,7 @@ nav>a.active:not(.mini-logo-nav) {
 
 #contents {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     width: 100%;
 }
 
@@ -316,6 +321,7 @@ nav>a.active:not(.mini-logo-nav) {
 
 .blog-entry {
     width: inherit;
+    margin-bottom: 40px;
 }
 
 .blog-header-image {
@@ -435,20 +441,30 @@ nav>a.active:not(.mini-logo-nav) {
     font-weight: 600;
 }
 
+.blog-tags-and-social>.tags>.tag-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .blog-tags-and-social>.tags>.tag-links a:link,
 .blog-tags-and-social>.tags>.tag-links a:visited {
     text-decoration: underline;
     text-transform: lowercase;
     color: rgb(0, 97, 232);
     font-size: 0.8em;
+    margin-right: 1em;
 }
 
-.blog-tags-and-social>.social {
+
+/*SOCIAL*/
+
+.social {
     display: flex;
     flex-flow: row;
 }
 
-.blog-tags-and-social>.social .glyph {
+.social .glyph {
     border-radius: 20px;
     font-size: 1.4em;
     margin: 0px 10px 10px 0px;
@@ -458,7 +474,7 @@ nav>a.active:not(.mini-logo-nav) {
     text-align: center;
 }
 
-.blog-tags-and-social>.social .glyph>i {
+.social .glyph>i {
     display: table-cell;
     vertical-align: middle;
     color: white;
@@ -475,6 +491,7 @@ nav>a.active:not(.mini-logo-nav) {
 .glyph.instagram {
     background: #78c4ff;
 }
+
 
 
 /*********************
@@ -503,7 +520,7 @@ nav>a.active:not(.mini-logo-nav) {
 #big-logo {
     display: flex;
     justify-content: center;
-    margin-top: 55px;
+    margin-top: 15px;
     flex: 1;
     height: 169.23px;
 }
@@ -553,41 +570,8 @@ nav>a.active:not(.mini-logo-nav) {
     font-weight: 538.45;
 }
 
-
-/*SOCIAL*/
-
-.social {
+#front-text .social {
     margin-left: 95.2px;
-    display: flex;
-    flex-flow: row;
-}
-
-.social .glyph {
-    border-radius: 20px;
-    font-size: 1.4em;
-    margin: 0px 10px 10px 0px;
-    width: 35px;
-    height: 35px;
-    display: table;
-    text-align: center;
-}
-
-.social .glyph>i {
-    display: table-cell;
-    vertical-align: middle;
-    color: white;
-}
-
-.glyph.facebook {
-    background: #304f85;
-}
-
-.glyph.twitter {
-    background: #15a7ff;
-}
-
-.glyph.instagram {
-    background: #78c4ff;
 }
 
 
@@ -675,6 +659,9 @@ nav>a.active:not(.mini-logo-nav) {
     #bottom-spacer {
         height: 20vw;
     }
+    .blog-entry {
+            margin-bottom: 10vw;
+    }
     .blog-header-image>img {
         width: 100vw;
         clip: rect(0px, 100vw, 50vw, 0px);
@@ -728,6 +715,9 @@ nav>a.active:not(.mini-logo-nav) {
     .blog-tags-and-social>.tags>.title {
         margin-bottom: 1vw;
     }
+    .blog-tags-and-social>.tags>.tag-links {
+        justify-content: center;
+    }
     .blog-tags-and-social>.tags>.tag-links a:link,
     .blog-tags-and-social>.tags>.tag-links a:visited {
         font-size: 1em;
@@ -736,12 +726,12 @@ nav>a.active:not(.mini-logo-nav) {
     .blog-tags-and-social>.tags {
         margin-bottom: 10vw;
     }
-    .blog-tags-and-social>.social .glyph {
+    .blog-tags-and-social .social .glyph {
         width: 10vw;
         height: 10vw;
         border-radius: 30vw;
     }
-    .blog-tags-and-social>.social .glyph>i {
+    .blog-tags-and-social .social .glyph>i {
         font-size: 1.5em;
     }
 }
@@ -758,7 +748,7 @@ nav>a.active:not(.mini-logo-nav) {
     }
     #big-logo {
         margin-bottom: 25px;
-        margin-top: 40px;
+        margin-top: 0px;
     }
     #big-logo>img {
         position: relative;
@@ -775,7 +765,6 @@ nav>a.active:not(.mini-logo-nav) {
 @media (max-width: 610px) {
     #big-logo {
         height: 39.48vw;
-        margin-top: 8vw;
         margin-bottom: 8vw;
     }
     #big-logo>img {
@@ -817,7 +806,7 @@ nav>a.active:not(.mini-logo-nav) {
         display: block;
         width: 300px;
         margin: 0 auto;
-        margin-top: 40px;
+        margin-top: 0px;
     }
     #big-logo>img {
         position: absolute;
@@ -855,7 +844,6 @@ nav>a.active:not(.mini-logo-nav) {
 (-ms-high-contrast: active) {
     #big-logo {
         width: 70vw;
-        margin-top: 8vw;
     }
     #front-text {
         margin-top: 8vw;

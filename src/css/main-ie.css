@@ -6,7 +6,7 @@
     display: block;
     width: 300px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 #big-logo>img {
@@ -50,7 +50,6 @@
 @media(max-width: 610px) {
     #big-logo {
         width: 70vw;
-        margin-top: 8vw;
     }
     #front-text {
         margin-top: 8vw;

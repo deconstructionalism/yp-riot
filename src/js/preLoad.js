@@ -53,10 +53,16 @@ var cycleBgs = function() {
     }
 
     // cycle through background images
-    setInterval(function() {
+    var bgCycler = setInterval(function() {
         counter = counter === numBgs ? 0 : counter;
         var bgImg = backgrounds[counter];
         setBg(bgImg);
         counter += 1;
     }, 3000);
+
+    window.stopBgCycler = function() {
+        clearInterval(bgCycler);
+        bodyEl.style.backgroundImage = 'linear-gradient(-180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.00) 100%)';
+        document.querySelector('#bg-overlay').style.display = "none";
+    }
 }

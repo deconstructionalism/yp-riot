@@ -1,2 +1,0 @@
-riot.tag2('nav', '<div id="navbar"> <a href="updates.html">Updates</a> <a href="tickets.html">Tickets</a> <a href="line-up.html">Line-up</a> <a href="getting_there.html">Getting There</a> <a href="about.html">About</a> <a href="blog.html">Blog</a> </div>', '', '', function(opts) {
-});
