@@ -1,0 +1,105 @@
+/* Rectangle: */
+background: #D8D8D8;
+/* Rectangle 2: */
+background-image: linear-gradient(-180deg, rgba(0,0,0,0.13) 0%, rgba(0,0,0,0.00) 100%);
+/* Oval: */
+background: #FFFFFF;
+/* Oval: */
+border: 1px solid #FFFFFF;
+/* Oval: */
+border: 1px solid #FFFFFF;
+/* Oval: */
+border: 1px solid #FFFFFF;
+/* Rectangle: */
+transform: rotate(-180deg);
+background-image: linear-gradient(0deg, #E9E2EB 0%, #E6F1F5 100%);
+/* Rectangle: */
+background: #FFFFFF;
+/* menu copy: */
+/* yplogo: */
+background: #000000;
+box-shadow: 0 2px 0 0 rgba(0,0,0,0.25);
+/* Rectangle: */
+/* Sketch doesnt export pattern fills at this point */
+/* Rectangle: */
+/* Sketch doesnt export pattern fills at this point */
+/* Rectangle: */
+/* Sketch doesnt export pattern fills at this point */
+/* Rectangle 7: */
+background: rgba(66,70,77,0.10);
+/* Rectangle 7: */
+background: rgba(66,70,77,0.75);
+/* Rectangle 7: */
+background: rgba(66,70,77,0.35);
+/* 06/23/17: */
+font-family: Asap-Medium;
+font-size: 16px;
+color: #42464D;
+/* 06/23/17: */
+font-family: Asap-Medium;
+font-size: 16px;
+color: #FFFFFF;
+/* Talks: */
+font-family: Asap-Medium;
+font-size: 16px;
+color: #FFFFFF;
+/* Special Guest First: */
+font-family: Asap-Bold;
+font-size: 20px;
+color: #FFFFFF;
+/* 06/23/17: */
+font-family: Asap-Medium;
+font-size: 16px;
+color: #42464D;
+/* Talks: */
+font-family: Asap-Medium;
+font-size: 16px;
+color: #42464D;
+/* Special Guest First: */
+font-family: Asap-Bold;
+font-size: 20px;
+color: #42464D;
+/* Talks: */
+font-family: Asap-Medium;
+font-size: 16px;
+color: #42464D;
+/* Special Guest First: */
+font-family: Asap-Bold;
+font-size: 20px;
+color: #42464D;
+/* Rectangle 5: */
+background: #0061E8;
+/* Cras congue sagittis: */
+font-family: Asap-Regular;
+font-size: 14px;
+color: #FFFFFF;
+/* Read more…: */
+font-family: Asap-Regular;
+font-size: 14px;
+color: #FFFFFF;
+/* Rectangle 3: */
+/* Sketch doesnt export pattern fills at this point */
+/* Rectangle 3: */
+background: rgba(66,70,77,0.33);
+/* Rectangle 5: */
+background: #0061E8;
+/* Rectangle 5: */
+background: #0061E8;
+/* Rectangle 5: */
+background: #0061E8;
+/* Surf Sweets, Dusty D: */
+font-family: Asap-Bold;
+font-size: 48px;
+color: #FFFFFF;
+text-shadow: 0 2px 0 rgba(0,0,0,0.50);
+/* Rectangle 5: */
+background: #0061E8;
+/* 06/30/17: */
+font-family: Asap-Medium;
+font-size: 24px;
+color: #FFFFFF;
+text-shadow: 0 2px 0 rgba(0,0,0,0.50);
+/* Music: */
+font-family: Asap-Regular;
+font-size: 28px;
+color: #FFFFFF;

@@ -1,0 +1,113 @@
+/* Rectangle: */
+background: #D8D8D8;
+/* Rectangle: */
+background-image: linear-gradient(0deg, #E9E2EB 0%, #E6F1F5 100%);
+/* Rectangle: */
+transform: rotate(-180deg);
+background-image: linear-gradient(0deg, #E9E2EB 0%, #E6F1F5 100%);
+/* menu: */
+/* Rectangle 3: */
+/* Sketch doesnt export pattern fills at this point */
+/* yplogo: */
+background: #000000;
+/* Rectangle 3: */
+background: rgba(66,70,77,0.15);
+/* Rectangle 9: */
+background: #FFFFFF;
+/* Suggestions on place: */
+font-family: Helvetica;
+font-size: 14px;
+color: #42464D;
+line-height: 23px;
+/* Rectangle: */
+/* Sketch doesnt export pattern fills at this point */
+/* map_location_pin_map-marker_glyph: */
+background: #FFFFFF;
+box-shadow: 0 2px 0 0 rgba(0,0,0,0.50);
+/* map_location_pin_map-marker_glyph: */
+background: #FFFFFF;
+box-shadow: 0 2px 0 0 rgba(0,0,0,0.50);
+/* map_location_pin_map-marker_glyph: */
+background: #FFFFFF;
+box-shadow: 0 2px 0 0 rgba(0,0,0,0.50);
+/* map_location_pin_map-marker_glyph: */
+background: #FFFFFF;
+box-shadow: 0 2px 0 0 rgba(0,0,0,0.50);
+/* TAGS:: */
+font-family: Asap-Medium;
+font-size: 18px;
+color: #42464D;
+/* Info, Venues, Philly: */
+font-family: Asap-Regular;
+font-size: 14px;
+color: #0061E8;
+/* Mask: */
+/* socialmedia_icons: */
+/* Mask: */
+/* socialmedia_icons: */
+/* Mask: */
+/* socialmedia_icons: */
+/* Philly, the Venues,: */
+font-family: Asap-Regular;
+font-size: 28px;
+color: #FFFFFF;
+text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+/* Rectangle 5: */
+background: #0061E8;
+/* GETTING THERE: */
+font-family: Asap-Bold;
+font-size: 48px;
+color: #FFFFFF;
+text-shadow: 0 2px 0 rgba(0,0,0,0.50);
+/* VENUE: */
+font-family: Helvetica-Bold;
+font-size: 12px;
+color: #838A97;
+/* Venue Name: */
+font-family: Helvetica;
+font-size: 16px;
+color: #42464D;
+/* 123 Street Ave. Phil: */
+font-family: Asap-Regular;
+font-size: 12px;
+color: #42464D;
+line-height: 17px;
+/* VENUE: */
+font-family: Helvetica-Bold;
+font-size: 12px;
+color: #838A97;
+/* Venue Name: */
+font-family: Helvetica;
+font-size: 16px;
+color: #42464D;
+/* 123 Street Ave. Phil: */
+font-family: Asap-Regular;
+font-size: 12px;
+color: #42464D;
+line-height: 17px;
+/* VENUE: */
+font-family: Helvetica-Bold;
+font-size: 12px;
+color: #838A97;
+/* VENUE: */
+font-family: Helvetica-Bold;
+font-size: 12px;
+color: #838A97;
+/* Venue Name: */
+font-family: Helvetica;
+font-size: 16px;
+color: #42464D;
+/* 123 Street Ave. Phil: */
+font-family: Asap-Regular;
+font-size: 12px;
+color: #42464D;
+line-height: 17px;
+/* Venue Name: */
+font-family: Helvetica;
+font-size: 16px;
+color: #42464D;
+/* 123 Street Ave. Phil: */
+font-family: Asap-Regular;
+font-size: 12px;
+color: #42464D;
+line-height: 17px;

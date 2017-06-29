@@ -1,0 +1,58 @@
+#big-logo>#underline {
+    position: absolute;
+}
+
+#big-logo {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#big-logo>img {
+    position: absolute;
+    margin: auto;
+}
+
+#contents {
+    display: inline;
+}
+
+#date-and-time {
+    justify-content: center;
+}
+
+#front-text {
+    margin-top: 40px;
+}
+
+.social {
+    margin: 0;
+    justify-content: center;
+}
+
+#loading-overlay span:first-child {
+    background: transparent;
+    width: 100vw;
+}
+
+#loading-overlay span:first-child:after {
+    color: white;
+    content: 'LOADING';
+    letter-spacing: 1em;
+    font-size: 1.7em;
+}
+
+#loading-overlay span:not(:first-child) {
+    display: none;
+}
+
+@media(max-width: 610px) {
+    #big-logo {
+        width: 70vw;
+        margin-top: 8vw;
+    }
+    #front-text {
+        margin-top: 8vw;
+    }
+}

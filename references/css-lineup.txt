@@ -1,0 +1,81 @@
+/* Rectangle: */
+background: #D8D8D8;
+/* Rectangle: */
+background-image: linear-gradient(0deg, #E9E2EB 0%, #E6F1F5 100%);
+/* Rectangle: */
+transform: rotate(-180deg);
+background-image: linear-gradient(0deg, #E9E2EB 0%, #E6F1F5 100%);
+/* menu: */
+/* Rectangle 3: */
+background: rgba(255,255,255,0.80);
+/* Rectangle 3: */
+background: rgba(255,255,255,0.80);
+/* Rectangle 3: */
+background: rgba(255,255,255,0.80);
+/* Rectangle 3: */
+background: rgba(255,255,255,0.80);
+/* 9/25 THURSDAY: */
+font-family: Asap-Bold;
+font-size: 14px;
+color: #000000;
+/* 9/26 FRIDAY: */
+font-family: Asap-Bold;
+font-size: 14px;
+color: #000000;
+/* 9/27 SATURDAY: */
+font-family: Asap-Bold;
+font-size: 14px;
+color: #000000;
+/* event1: */
+/* 9/28 SUNDAY: */
+font-family: Asap-Bold;
+font-size: 14px;
+color: #000000;
+/* Rectangle 3: */
+/* Sketch doesnt export pattern fills at this point */
+/* Rectangle 3: */
+background: rgba(66,70,77,0.34);
+/* Oval: */
+transform: rotate(-60deg);
+background: #FFFFFF;
+/* Oval: */
+transform: rotate(-60deg);
+border: 1px solid #FFFFFF;
+/* Oval: */
+transform: rotate(-60deg);
+border: 1px solid #FFFFFF;
+/* Oval: */
+transform: rotate(-60deg);
+border: 1px solid #FFFFFF;
+/* yplogo: */
+background: #000000;
+/* Featured Band: */
+font-family: Asap-Regular;
+font-size: 28px;
+color: #FFFFFF;
+text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+/* Rectangle 5: */
+background: #0061E8;
+/* INSERT BAND NAME: */
+font-family: Asap-Bold;
+font-size: 48px;
+color: #FFFFFF;
+text-shadow: 0 2px 0 rgba(0,0,0,0.50);
+/* ovalarrow: */
+/* event1: */
+/* event1: */
+/* event1: */
+/* event1: */
+/* event1: */
+/* event1: */
+/* event1: */
+/* event1: */
+/* event2: */
+/* event2: */
+/* event4: */
+/* event2: */
+/* event2: */
+/* event4: */
+/* event4: */
+/* event5: */
+/* event5: */
